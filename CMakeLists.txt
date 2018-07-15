@@ -35,7 +35,7 @@ set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${MONERO_BUILD_DIR}"
 
 include(MyUtils)
 
-find_package(ReCoal)
+find_package(Monero)
 
 include_directories(/usr/include/mysql)
 
